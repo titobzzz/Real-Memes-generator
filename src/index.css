@@ -1,0 +1,85 @@
+.navbar{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display:grid;
+    grid-template-columns: 50% 50%;
+    font: 20px 'poppins' ;
+    color:white ;
+}
+.navbar .nav-container{
+    margin-left:40px;
+ display:flex;
+ align-items: center;
+ 
+}
+.nav-container img{
+    margin: 20px;
+    height:30px;
+}
+.navbar h4{
+    margin-left:170px;
+}
+.form{
+    margin:40px 20px;
+  width:100%;
+  display:grid;
+  justify-content: center;
+}
+.form input{
+    margin:20px 20px ;
+    padding:10px;
+    font: 20px 'poppins' ;
+    border-radius:15px 15px;   
+}
+.form button{
+    font: 20px 'poppins' ;   
+    color:white;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    border-radius:15px 15px;
+    padding:10px;
+    margin-top:15px;
+    border: 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+.display{
+    position:relative;
+    width:500px;
+    align-items: center;
+}
+.text{   
+        position: absolute;
+        width: 80%;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 15px 0;
+        padding: 0 5px;
+        font-family: impact, sans-serif;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        text-shadow:
+            2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            0 2px 0 #000,
+            2px 0 0 #000,
+            0 -2px 0 #000,
+            -2px 0 0 #000,
+            2px 2px 5px #000;
+    }
+
+.bottom-text {
+    bottom: 0;
+}
+
+.top-text {
+    
+    top: 0;
+}
+.memeimg{
+   max-width:700px;
+}
